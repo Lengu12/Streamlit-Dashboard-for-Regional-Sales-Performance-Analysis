@@ -11,7 +11,7 @@ conn = psycopg2.connect(
     host="localhost",
     database="ecommerce_performance_database",
     user="postgres",
-    password=""
+    password="Admin"
 )
 
 query = """
